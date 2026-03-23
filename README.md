@@ -31,3 +31,8 @@ sacct -j <jobid> -o JobID,JobName,Partition,Account,AllocCPUS,AllocTRES,ReqMem,M
 To Verify the saved model
 ==========================
 ls -la $HOME/polar-semeval-2026/predictions/instruct/final_model/
+To Check file sizes
+du -sh $HOME/polar-semeval-2026/predictions/instruct/final_model/
+
+PS:-
+User may test inference with the above finetuned model as required
