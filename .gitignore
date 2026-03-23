@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+llm/test.py
+
+# Documentation
+docs/
+
+# Virtual environments
+.venv
+/predictions/
+/src/semevalpolar/finetuning/slm/config/*
+data/
+.idea
+/src/semevalpolar/finetuning/instruct/config/*
+/src/semevalpolar/finetuning/instruct/.ipynb_checkpoints/
+/src/predictions/finetuning/
+/src/semevalpolar/finetuning/rlhf/preference_pairs/
